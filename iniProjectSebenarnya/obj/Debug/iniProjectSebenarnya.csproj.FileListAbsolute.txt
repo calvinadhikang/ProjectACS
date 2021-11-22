@@ -1,0 +1,12 @@
+E:\ISTTS\KULIAH\sem 3\ProjectACS\iniProjectSebenarnya\iniProjectSebenarnya\bin\Debug\iniProjectSebenarnya.exe.config
+E:\ISTTS\KULIAH\sem 3\ProjectACS\iniProjectSebenarnya\iniProjectSebenarnya\bin\Debug\iniProjectSebenarnya.exe
+E:\ISTTS\KULIAH\sem 3\ProjectACS\iniProjectSebenarnya\iniProjectSebenarnya\bin\Debug\iniProjectSebenarnya.pdb
+E:\ISTTS\KULIAH\sem 3\ProjectACS\iniProjectSebenarnya\iniProjectSebenarnya\obj\Debug\iniProjectSebenarnya.csprojAssemblyReference.cache
+E:\ISTTS\KULIAH\sem 3\ProjectACS\iniProjectSebenarnya\iniProjectSebenarnya\obj\Debug\iniProjectSebenarnya.Form1.resources
+E:\ISTTS\KULIAH\sem 3\ProjectACS\iniProjectSebenarnya\iniProjectSebenarnya\obj\Debug\iniProjectSebenarnya.FormAdmin.resources
+E:\ISTTS\KULIAH\sem 3\ProjectACS\iniProjectSebenarnya\iniProjectSebenarnya\obj\Debug\iniProjectSebenarnya.Properties.Resources.resources
+E:\ISTTS\KULIAH\sem 3\ProjectACS\iniProjectSebenarnya\iniProjectSebenarnya\obj\Debug\iniProjectSebenarnya.UserLogin.resources
+E:\ISTTS\KULIAH\sem 3\ProjectACS\iniProjectSebenarnya\iniProjectSebenarnya\obj\Debug\iniProjectSebenarnya.csproj.GenerateResource.cache
+E:\ISTTS\KULIAH\sem 3\ProjectACS\iniProjectSebenarnya\iniProjectSebenarnya\obj\Debug\iniProjectSebenarnya.csproj.CoreCompileInputs.cache
+E:\ISTTS\KULIAH\sem 3\ProjectACS\iniProjectSebenarnya\iniProjectSebenarnya\obj\Debug\iniProjectSebenarnya.exe
+E:\ISTTS\KULIAH\sem 3\ProjectACS\iniProjectSebenarnya\iniProjectSebenarnya\obj\Debug\iniProjectSebenarnya.pdb
