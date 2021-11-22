@@ -39,11 +39,11 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelSupplier = new System.Windows.Forms.Panel();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelKaryawan = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -59,8 +59,8 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.panelSupplier.SuspendLayout();
+            this.panelKaryawan.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -150,9 +150,9 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(761, 363);
+            this.button8.Location = new System.Drawing.Point(761, 364);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(112, 52);
+            this.button8.Size = new System.Drawing.Size(131, 52);
             this.button8.TabIndex = 6;
             this.button8.Text = "dlete";
             this.button8.UseVisualStyleBackColor = true;
@@ -161,25 +161,25 @@
             // 
             this.button9.Location = new System.Drawing.Point(631, 363);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(124, 52);
+            this.button9.Size = new System.Drawing.Size(125, 53);
             this.button9.TabIndex = 7;
             this.button9.Text = "insert / update";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // panel1
+            // panelSupplier
             // 
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Location = new System.Drawing.Point(631, 74);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(261, 283);
-            this.panel1.TabIndex = 13;
+            this.panelSupplier.Controls.Add(this.textBox5);
+            this.panelSupplier.Controls.Add(this.label10);
+            this.panelSupplier.Controls.Add(this.textBox1);
+            this.panelSupplier.Controls.Add(this.label2);
+            this.panelSupplier.Controls.Add(this.textBox2);
+            this.panelSupplier.Controls.Add(this.label9);
+            this.panelSupplier.Controls.Add(this.label8);
+            this.panelSupplier.Location = new System.Drawing.Point(631, 74);
+            this.panelSupplier.Name = "panelSupplier";
+            this.panelSupplier.Size = new System.Drawing.Size(261, 283);
+            this.panelSupplier.TabIndex = 13;
             // 
             // textBox2
             // 
@@ -209,22 +209,22 @@
             this.label8.TabIndex = 19;
             this.label8.Text = "Supplier";
             // 
-            // panel2
+            // panelKaryawan
             // 
-            this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.radioButton2);
-            this.panel2.Controls.Add(this.radioButton1);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.comboBox1);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.textBox4);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(631, 451);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(242, 283);
-            this.panel2.TabIndex = 14;
+            this.panelKaryawan.Controls.Add(this.label7);
+            this.panelKaryawan.Controls.Add(this.radioButton2);
+            this.panelKaryawan.Controls.Add(this.radioButton1);
+            this.panelKaryawan.Controls.Add(this.label6);
+            this.panelKaryawan.Controls.Add(this.comboBox1);
+            this.panelKaryawan.Controls.Add(this.label3);
+            this.panelKaryawan.Controls.Add(this.textBox4);
+            this.panelKaryawan.Controls.Add(this.label5);
+            this.panelKaryawan.Controls.Add(this.textBox3);
+            this.panelKaryawan.Controls.Add(this.label4);
+            this.panelKaryawan.Location = new System.Drawing.Point(631, 435);
+            this.panelKaryawan.Name = "panelKaryawan";
+            this.panelKaryawan.Size = new System.Drawing.Size(261, 283);
+            this.panelKaryawan.TabIndex = 14;
             // 
             // label7
             // 
@@ -279,7 +279,7 @@
             "Pembelian",
             "Retur",
             "Pembayaran"});
-            this.comboBox1.Location = new System.Drawing.Point(90, 130);
+            this.comboBox1.Location = new System.Drawing.Point(110, 130);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(140, 26);
             this.comboBox1.TabIndex = 16;
@@ -288,7 +288,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(23, 133);
+            this.label3.Location = new System.Drawing.Point(26, 133);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 18);
             this.label3.TabIndex = 15;
@@ -297,7 +297,7 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(90, 87);
+            this.textBox4.Location = new System.Drawing.Point(110, 87);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(140, 24);
             this.textBox4.TabIndex = 14;
@@ -306,7 +306,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(8, 87);
+            this.label5.Location = new System.Drawing.Point(11, 87);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(83, 18);
             this.label5.TabIndex = 13;
@@ -315,7 +315,7 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(90, 58);
+            this.textBox3.Location = new System.Drawing.Point(110, 58);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(140, 24);
             this.textBox3.TabIndex = 12;
@@ -342,7 +342,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(8, 103);
+            this.label2.Location = new System.Drawing.Point(32, 106);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 18);
             this.label2.TabIndex = 22;
@@ -360,7 +360,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(8, 133);
+            this.label10.Location = new System.Drawing.Point(28, 133);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(63, 18);
             this.label10.TabIndex = 24;
@@ -371,8 +371,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(904, 661);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelKaryawan);
+            this.Controls.Add(this.panelSupplier);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button9);
@@ -388,10 +388,10 @@
             this.Text = "FormAdmin";
             this.Load += new System.EventHandler(this.FormAdmin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.panelSupplier.ResumeLayout(false);
+            this.panelSupplier.PerformLayout();
+            this.panelKaryawan.ResumeLayout(false);
+            this.panelKaryawan.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -410,8 +410,8 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panelSupplier;
+        private System.Windows.Forms.Panel panelKaryawan;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;

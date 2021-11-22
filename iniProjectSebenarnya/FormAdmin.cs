@@ -25,14 +25,14 @@ namespace iniProjectSebenarnya
 
         private void FormAdmin_Load(object sender, EventArgs e)
         {
-            panel1.Visible = false;
-            panel2.Visible = true;
+            panelSupplier.Visible = false;
+            panelKaryawan.Visible = true;
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            panel1.Visible = true;
-            panel2.Visible = false;
+            panelSupplier.Visible = true;
+            panelKaryawan.Visible = false;
 
             //ssadjaskldaskld
             //asdkjaskldjad

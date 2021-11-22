@@ -79,7 +79,7 @@
             this.dataGridView2.Location = new System.Drawing.Point(12, 150);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
-            this.dataGridView2.Size = new System.Drawing.Size(431, 89);
+            this.dataGridView2.Size = new System.Drawing.Size(431, 259);
             this.dataGridView2.TabIndex = 6;
             // 
             // dataGridView3
@@ -90,7 +90,7 @@
             this.dataGridView3.Location = new System.Drawing.Point(530, 150);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.ReadOnly = true;
-            this.dataGridView3.Size = new System.Drawing.Size(431, 89);
+            this.dataGridView3.Size = new System.Drawing.Size(431, 259);
             this.dataGridView3.TabIndex = 6;
             // 
             // label3
@@ -104,7 +104,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(449, 216);
+            this.button1.Location = new System.Drawing.Point(449, 270);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 8;
@@ -114,7 +114,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(449, 159);
+            this.label4.Location = new System.Drawing.Point(449, 213);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 13);
             this.label4.TabIndex = 7;
@@ -122,7 +122,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(449, 176);
+            this.textBox1.Location = new System.Drawing.Point(449, 230);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(75, 20);
             this.textBox1.TabIndex = 9;
@@ -131,7 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 260);
+            this.ClientSize = new System.Drawing.Size(974, 421);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
