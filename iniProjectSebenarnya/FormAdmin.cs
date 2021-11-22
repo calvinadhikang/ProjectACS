@@ -33,6 +33,9 @@ namespace iniProjectSebenarnya
         {
             panel1.Visible = true;
             panel2.Visible = false;
+
+            //ssadjaskldaskld
+            //asdkjaskldjad
         }
     }
 }
